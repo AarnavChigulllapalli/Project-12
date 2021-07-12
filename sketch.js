@@ -23,7 +23,7 @@ function setup(){
   path.velocityY=4;
   path.scale=1.2;
   jaxon=createSprite(200,350,100,100);
-  jaxon.addAnimation("Runner-1.png","Runner-2.png",jaxonimg)
+  jaxon.addAnimation(jaxonimg)
   jaxon.scale=0.1;
   
 }  
